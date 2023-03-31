@@ -1,9 +1,47 @@
-.menu {
-    font-size: small;
+.mobile-menu {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    background: #e9ead9;
+    cursor: pointer;
+    line-height: 40px;
+    position: absolute;
+    top: 72px;
+    transition: left 1s;
+
+}
+
+.mobile-menu>a {
+    display: block;
+    font-size: 20px;
     font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.menu {
+    text-align: right;
+    background: #e9ead9;
     line-height: 40px;
     position: sticky;
     top: 0;
     cursor: pointer;
-    word-spacing: 1px;
+
+}
+
+.menu>a {
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.menu-active{
+    color: red !important;
+}
+
+.mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 72px;
 }
