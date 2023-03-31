@@ -1,4 +1,6 @@
 .header{
  font-size: large;
  font-weight: bold; 
+ height: 50px;
+ line-height: 3
 }
