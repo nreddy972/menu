@@ -38,11 +38,11 @@ const Menu = () => {
   }
 
   return <div>
-      {isMobileView && <button onClick={fnMobileMenuBtn} className='mobile-menu-btn'>Mobile Menu</button>}
+      {isMobileView && <img src='mobile-menu.png' onClick={fnMobileMenuBtn} className='mobile-menu-btn' />}
       <div  onClick={fnClick} style={{ left: myLeft }} className={isMobileView ? 'mobile-menu' : 'menu'}>
-          <a id='Home' className={menu =='Home' && 'menu-active' } >HOME</a>
-          <a id='About' className={menu =='About' && 'menu-active '} >ABOUT</a>
-          <a id='Contact' className={menu =='Contact' && 'menu-active '} >CONTACT</a>
+          <a  href ='#/home' id='Home' className={menu =='Home' && 'menu-active' } >HOME</a>
+          <a href ='#/about' id='About' className={menu =='About' && 'menu-active '} >ABOUT</a>
+          <a href ='#/contact' id='Contact' className={menu =='Contact' && 'menu-active '} >CONTACT</a>
       </div>
 
     

@@ -43,5 +43,7 @@
 .mobile-menu-btn {
     position: absolute;
     right: 0;
-    top: 72px;
+    top: 51px;
+    width: 30px;
+    cursor: pointer;
 }
